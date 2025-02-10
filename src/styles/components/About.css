@@ -1,0 +1,116 @@
+.about-us {
+    padding-top: 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #7dbf40, #5a9a2d);
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #eaf8e6;
+  }
+  
+  .history {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #38761d;
+  }
+
+  .team {
+    background-color: #eff7ee;
+    padding: 50px 20px;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #38761d;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .team-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #7dbf40;
+  }
+
+  .impact,
+  .partners {
+    background-color: #eff7ee;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .impact h2,
+  .partners h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #38761d;
+  }
+
+  .cta {
+    background: #eff7ee;
+    color: black;
+    padding: 50px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: white;
+    color: #38761d;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background: #ffd1b3;
+  }
+  
