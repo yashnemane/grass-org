@@ -37,11 +37,11 @@ const Header = () => {
               <a href="/about" className="nav-link">About Us</a>
             </li>
             <li className="dropdown">
-              <a href="/what-we-do" className="nav-link">What we do</a>
+              <a href="/whatwedo" className="nav-link">What we do</a>
             </li>
             <li><a href="/projects" className="nav-link">Projects</a></li>
             <li className="dropdown">
-              <a href="/media" className="nav-link">Media Corner</a>
+              <a href="/mediacorner" className="nav-link">Media Corner</a>
             </li>
             <li><a href="/gallery" className="nav-link">Gallery</a></li>
             <li><a href="/contact" className="nav-link">Contact Us</a></li>

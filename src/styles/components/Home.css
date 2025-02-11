@@ -20,11 +20,13 @@
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .hero-content p {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
+  color: black;
 }
 
 .cta-button {

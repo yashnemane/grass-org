@@ -5,7 +5,9 @@ import Home from '../src/components/Home.js';
 import About from '../src/components/About.js';
 import Projects from '../src/components/Projects.js';
 import Contact from '../src/components/Contact.js';
+import MediaCorner from '../src/components/MediaCorner.js'
 import './App.css'
+import WhatWeDo from '../src/components/WhatWeDo.js';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mediacorner" element={<MediaCorner />} />
+          <Route path="/whatwedo" element={<WhatWeDo />} />
         </Routes>
       </Layout>
     </Router>

@@ -1,10 +1,24 @@
 import React from 'react';
 import '../styles/components/Home.css';
+import homePageImage from "../assets/images/home-page.jpg";
 
 const Home = () => {
   return (
     <div className="home">
-      <section className="hero">
+      <section className="hero"
+      style={{
+        backgroundImage: `url(${homePageImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        height: "400px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        color: "black",
+      }}>
         <div className="hero-content">
           <h1>Advancing Agricultural Education</h1>
           <p>Empowering communities through sustainable agricultural practices and education</p>
