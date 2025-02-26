@@ -5,7 +5,7 @@ export const NGO_DETAILS = {
     mission: "Empowering farmers with sustainable agricultural techniques, organic farming, and innovative crop patterns.",
     quote: "A nation that takes care of its farmers, nurtures its future.",
     impact: {
-      farmersTrained: 1000, // Can be updated dynamically
+      farmersTrained: 1000,
       projectsCompleted: 50,
       communitiesServed: 100,
     },

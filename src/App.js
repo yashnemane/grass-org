@@ -8,6 +8,7 @@ import Contact from '../src/components/Contact.js';
 import MediaCorner from '../src/components/MediaCorner.js'
 import './App.css'
 import WhatWeDo from '../src/components/WhatWeDo.js';
+import Gallery from '../src/components/Gallery.js';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/mediacorner" element={<MediaCorner />} />
           <Route path="/whatwedo" element={<WhatWeDo />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </Layout>
     </Router>

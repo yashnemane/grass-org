@@ -5,7 +5,6 @@ import "../styles/components/WhatWeDo.css";
 const WhatWeDo = () => {
   const [selectedActivity, setSelectedActivity] = useState(null);
 
-  // Function to close modal
   const closeModal = () => {
     setSelectedActivity(null);
   };
@@ -18,7 +17,7 @@ const WhatWeDo = () => {
           <div
             key={index}
             className="activity-card"
-            onClick={() => setSelectedActivity(activity)} // Open modal on click
+            onClick={() => setSelectedActivity(activity)}
           >
             <img src={activity.icon} alt={activity.title} className="activity-icon" />
             <h3>{activity.title}</h3>

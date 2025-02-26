@@ -30,7 +30,6 @@ const projectsData = [
       image: agriTech,
       link: "/projects/agri-tech",
     },
-    // More projects can be added here...
   ];
   
   export default projectsData;
